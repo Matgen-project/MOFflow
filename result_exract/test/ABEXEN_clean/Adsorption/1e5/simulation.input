@@ -1,0 +1,24 @@
+SimulationType        MonteCarlo
+NumberOfCycles        10000
+NumberOfInitializationCycles 5000
+PrintEvery            1000
+PrintPropertiesEvery  1000
+
+Forcefield            UFF4MOFs
+ChargeFromChargeEquilibration yes
+CutOff                12.8
+
+Framework 0
+FrameworkName     ABEXEN_clean
+UnitCells         2 2 1
+ExternalTemperature 273.0
+HeliumVoidFraction  0.765222
+ExternalPressure   1e5
+
+Component 0  MoleculeName             CO2
+             MoleculeDefinition       TraPPE
+             TranslationProbability   0.5
+             RotationProbability      0.5
+             ReinsertionProbability   0.5
+             SwapProbability          1.0
+             CreateNumberOfMolecules  0

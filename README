@@ -1,0 +1,2 @@
+python submit_init_calculation.py /WORK/nscc-gz_material_1/MOFs/mof_6674/calc/test/ hvf test
+python submit_adsorption_calculation.py /WORK/nscc-gz_material_1/MOFs/mof_6674/calc/test ads co2test
